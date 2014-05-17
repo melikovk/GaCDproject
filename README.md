@@ -13,5 +13,5 @@ Script **run_analysis.R** summarizes user activity data from Human Activity Reco
 5. Read training set measurement and add columns with user id and activity code.
 6. Merge test and training data into single data frame. 
 7. Relabel activity codes using descriptive names from **activity_labels.txt** file. 
-8. Use *ddply* from *plyr* library to summarize data with the average of each variable for each activity and each subject.
+8. Use *ddply()* from *plyr* library to summarize data with the average of each variable for each activity and each subject.
 9. Save resulting tidy data set into the file.

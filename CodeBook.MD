@@ -1,11 +1,8 @@
-Script run_analysis.R summarizes user activity data from Human Activity Recognition Using Smartphones Dataset Version 1.0
-Script expect tha dataset to be located in the current directory preserving original dataset directory structure (with
-test dataset and train dataset located in 'test' and 'train' subfolders respectively). Script reads only the measurements
-on the mean and standard deviation for each measurement and merges trinning and test datasets. Then independent tidy data
-set is created with the average of each variable for each activity and each subject. Activities are relabelled using 
-descriptive tags from "activity_labels.txt" file ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING"
-,"LAYING"). Appropriate column names are added to describe each variable (taken from "features.txt" and modified in the 
-following way - '-' are replaced with '.' and '()' are removed). Below is the list of all variables in the output dataset:
+Script **run_analysis.R** summarizes user activity data from Human Activity Recognition Using Smartphones Dataset Version 1.0 Script expect tha dataset to be located in the current directory preserving original dataset directory structure (with
+test dataset and train dataset located in **test** and **train** subfolders respectively). Script reads only the measurements on the mean and standard deviation for each measurement and merges trinning and test datasets. Then independent tidy data set is created with the average of each variable for each activity and each subject. Activities are relabelled using 
+descriptive tags from **activity_labels.txt** file (*WALKING*,*WALKING_UPSTAIRS*,*WALKING_DOWNSTAIRS*,*SITTING*,*STANDING*
+,*LAYING*). Appropriate column names are added to describe each variable (taken from **features.txt** and modified in the 
+following way - **-** are replaced with **.** and **()** are removed). Below is the list of all variables in the output dataset:
 
 1 userid
 2 activity
