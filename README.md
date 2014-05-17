@@ -6,6 +6,7 @@ Getting and Cleaning Data Course Project
 Script run_analysis.R summarizes user activity data from Human Activity Recognition Using Smartphones Dataset Version 1.0
 Script expect tha dataset to be located in the current directory preserving original dataset directory structure (with
 test dataset and train dataset located in 'test' and 'train' subfolders respectively). Below is description of the script 
+
 1. Read "features.txt" file with the descriptive names of the measurements
 2  Use grep to select the measurements on the mean and standard deviation for each measurement - they have '-mean()' and 
    '-std()' in their name. 
